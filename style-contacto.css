@@ -1,0 +1,136 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #cccccc;
+    background: url(/assets/img/bg.jpg);
+}
+.titulo-principal{
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.box{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#cccccc;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+
+nav a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.formulario{
+    margin: 40px 0;
+}
+
+form label,form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px ;
+}
+
+
+.input-padron,form textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.selector{
+    margin: 20px 0;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform:scale(1.02); 
+
+}
+
+
+.table{
+    margin: 40px 40px;
+    color: darkblue;
+    background: rgb(201, 197, 189);
+}
+
+.th{
+    border: 2px solid black;
+    padding: 5px 20px;
+}
+.td{
+     border: 2px dotted black;
+     padding: 18px 25px;
+
+}
+
+footer{
+    padding: 40px;
+    background: url(/assets/img/bg.jpg);
+    text-align: center;
+    
+}
+
+footer img{
+    width: 5rem;
+}
+
+.copyright{
+    font-size: 10px;
+    color:grey;
+    margin: 10px;
+}
+
+
+

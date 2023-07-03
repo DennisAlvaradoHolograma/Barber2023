@@ -1,0 +1,128 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: orangered;
+    display: flex;
+    padding: 25% 0;
+}
+
+.box{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+
+nav a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.productos li{
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+
+
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: black;*/
+}
+
+.productos li:hover{
+    border-color:orange;
+}
+
+.productos li:active{
+    border-color: green;
+}
+
+
+.productos h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer{
+    padding: 40px;
+    background: url(/assets/img/bg.jpg);
+    text-align: center;
+    
+}
+
+footer img{
+    width: 5rem;
+}
+
+footer img{
+    width: 5rem;
+}
+.copyright{
+    font-size: 10px;
+    color:grey;
+    margin: 10px;
+}
